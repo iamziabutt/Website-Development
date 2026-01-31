@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Introduction</title>
+</head>
+<body style="background-color: aqua;">
+Hello my name is <mark>Aamir Sarbuland</mark><br>
+I am <i>12 Years Old</i><br>
+My favourite subjects are <b>Maths and Drama</b><br>
+My hobbies include <mark>Football,Studying,Coding</mark><br>
+My favourite quotation- <br>
+<mark><q>Don't judge a book by it's cover</q></mark><sub>-Anonymous</sub>
+
+</body>
+</html>
