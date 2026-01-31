@@ -1,0 +1,20 @@
+DOCTY<!PE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Formatting</title>
+</head>
+<body>
+<b>Aamir Sarbuland</b>
+<br>
+<i>Aamir Sarbuland</i>
+<br>
+<mark>Aamir Sarbuland</mark>
+<br>
+<del>Aamir Sarbuland</del><br>
+<small>Aamir Sarbuland</small><br>
+<em>Aamir Sarbuland</em><br>
+<sup>Aamir Sarbuland</sup> <sub>Aamir Sarbuland</sub>
+</body>
+</html>
