@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in html</title>
+</head>
+<body>
+<Table border="5px">
+<tr>
+<th>Player</th>
+<th>Country</th>
+<th>Team</th>
+</tr>
+<tr>
+<td>Cristiano Ronaldo</td>
+<td>Portugal</td>
+<td>Al-Nasar</td>
+</tr>
+<tr>
+<td>Lionel Messi</td>
+<td>Argentina</td>
+<td>Barcelona</td>
+</tr>
+<tr>
+<td>Neymar</td>
+<td>Brazil</td>
+<td>Santos FC</td>
+</tr>
+</Table>
+</body>
+</html>
