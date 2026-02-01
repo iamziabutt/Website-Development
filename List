@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body style="background-color: Grey;">
+<h1>Ordered Shopping List</h1>
+<ol>
+<li>Bread</li>
+<li>Butter</li>
+<li>Eggs</li>
+<li>Bakery</li>
+<li>Fruit</li>
+</ol>
+<h1>Unordered Shopping List</h1>
+<ul>
+<li>Bread</li>
+<li>Butter</li>
+<li>Eggs</li>
+<li>Bakery</li>
+<li>Fruit</li>
+</ul>
+</body>
+</html>
