@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe </title>
+<h1>Youtube Videos:</h1>
+<iframe src="https://www.youtube.com/embed/Y59fqZ6WU6M?autoplay=1&mute=1" frameborder="0"></iframe>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Media</title>
+</head>
+<body>
+<h1>Panda Image:</h1>
+<img src="Panda.jpg" alt="(Panda Imagee)">
+<h1>Panda Video:</h1>
+<audio src="soundreality-birds-forest-nature-445379.mp3" controls></audio>
+<footer>(Pandas are usually quit solitary animals and do not make much noise))</footer>
+<h1>Panda Video:</h1>
+<video src="Panda Video.mp4" controls height="250" width="500"></video>
+</body>
+</html>
+</body>
+</html>
