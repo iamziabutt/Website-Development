@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolour</title>
+    <style>
+        #grad{
+            text-align: center;
+              height: 200px;
+              background: radial-gradient(pink,yellow,aqua,red,green);
+        }
+    </style>
+</head>
+<body>
+    <div id="grad"><h1>Aamir Sarbuland</h1></div>
+</body>
+</html>
