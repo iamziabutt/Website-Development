@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border:5px solid black
+}
+#myDiv{
+    transform: rotateX(180deg);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Welcome to codingal</h1>
+
+<p>Ready to learn the rotate method....</p>
+
+<div>
+
+Codingal
+
+</div>
+
+<div id="myDiv">
+
+Codingal
+
+</div>
+
+</body>
+
+</html>
