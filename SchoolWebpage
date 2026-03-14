@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolWebpage</title>
+    <link rel="stylesheet" href="SchoolWebpage.css">
+</head>
+<body>
+<h1>St Edward's Secondary school</h1>
+<div>Key School Information
+Type: Academy (Church of England)
+<br>
+Age Range: 11–18
+<br>
+Headteacher: Ms. Jodie Hassan
+<br>
+Specialisms: Traditionally focused on Languages and Science.
+<br>
+Values: The school operates under the "HOPE" framework: Humanity, Optimism, Perseverance, and Excellence.</div>
+    
+</body>
+</html>
