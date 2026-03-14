@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+    <style>
+        div{
+            background-color: aqua;
+            padding: 10px;
+        }
+        div.First{
+                  opacity: 0.1;
+        }
+        div.Second{
+            opacity: 0.3;
+        }
+        div.third{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="First">Opacity 0.1</div>
+    <br>
+    <div class="Second">Opacity 0.3</div>
+    <br>
+    <div class="third">Opacity 0.7</div>
+    <br>
+    <div class="fourth">Opacity 1</div>
+</body>
+</html>
