@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>badge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Badges:</h1>
+        <span class="badge bg-primary">Primary</span>
+        <br><span class="badge bg-secondary">Secondary</span>
+        <br><span class="badge bg-warning">Warning</span>
+        <br><span class="badge bg-danger">Dangery</span>
+        <br><span class="badge bg-success">Success</span>
+    </div>
+    <div class="container">
+        <h1>Progress Bar:</h1>
+        <div class="progress"><div class="progress-bar" style="width: 70%;">70%</div></div>
+        <div class="progress-bar" style="width: 70%;">70%</div>
+    </div>
+</body>
+</html>
