@@ -1,0 +1,31 @@
+def fibonacci(n):
+    """
+    Returns the nth Fibonacci number using recursion.
+    Index starts at 0: fibonacci(0) = 0, fibonacci(1) = 1, etc.
+    """
+    # Base cases
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    # Recursive step
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+def print_fibonacci_sequence(terms):
+    """
+    Prints the Fibonacci sequence up to the specified number of terms.
+    """
+    if terms <= 0:
+        print("Please enter a positive integer.")
+        return
+
+    print(f"Fibonacci sequence ({terms} terms):")
+    sequence = [str(fibonacci(i)) for i in range(terms)]
+    print(", ".join(sequence))
+
+
+# Change this value to print more or fewer terms
+num_terms = 10
+print_fibonacci_sequence(num_terms)
