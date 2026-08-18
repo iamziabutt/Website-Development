@@ -1,0 +1,9 @@
+class robot:
+	print("Hello my name is Tom")
+
+ob = robot()
+
+class robot:
+	print("Hello my name is Jerry")
+
+ob = robot()
