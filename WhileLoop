@@ -1,0 +1,4 @@
+var = 1#(initialization)
+while var <=10:#(While Loop with condition statment)
+    print(var)
+    var = var+1#(updating the value)
