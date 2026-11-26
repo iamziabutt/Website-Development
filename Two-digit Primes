@@ -1,0 +1,51 @@
+# DSCM4L6 After Class Project: Two-Digit Primes (starter)
+# How to run: python3 two_digit_primes.py, or paste into one Google Colab cell and press Run.
+# Lines marked (given) are done for you. Your job is TODO 1 to TODO 3. Do them in order.
+# Each TODO ends with a Check line: run the file after every TODO and compare.
+# Errors appear at the bottom of the output; the last line names the problem.
+# The school quiz club gives every team a code that must be a two-digit prime (10 to 99).
+# Find all the possible codes with the Sieve of Eratosthenes, and count the crossings.
+
+
+def sieve(n):
+    """Return (list of all primes from 2 to n, number of crossings)."""
+    is_prime = [True] * (n + 1)
+    is_prime[0] = False
+    is_prime[1] = False
+    crossings = 0
+    p = 2
+    while p * p <= n:
+        # TODO 1: If p is still marked True, cross out the multiples of p, starting at
+        #         p * p, up to n (include n), in steps of p. Count each crossing.
+        #         Check: Crossings made by the sieve up to 99: 102
+        if is_prime[p]:
+            for multiple in range(p * p, n + 1, p):
+                is_prime[multiple] = False
+                crossings += 1
+        p = p + 1
+    primes = []
+    # TODO 2: Collect every k from 2 to n that is still marked True into primes.
+    #         Check: nothing new prints yet; the codes appear after TODO 3.
+    for k in range(2, n + 1):
+        if is_prime[k]:
+            primes.append(k)
+    return primes, crossings
+
+
+# (given) A: run the sieve up to 99 and print the codes.
+all_primes, crossings = sieve(99)
+codes = []
+# TODO 3: Keep only the primes that have two digits (10 or more; the sieve stops at 99).
+#         Go through all_primes and add each one to codes.
+#         Check: How many codes: 21, Smallest: 11, Largest: 97
+for prime in all_primes:
+    if prime >= 10:
+        codes.append(prime)
+print("Team codes (two-digit primes):", codes)
+print("How many codes:", len(codes))
+if len(codes) > 0:
+    print("Smallest:", codes[0], " Largest:", codes[-1])
+print("Crossings made by the sieve up to 99:", crossings)
+print("Time: O(n log log n) for the sieve. Space: O(n) for the True/False list.")
+
+# Time complexity: O(n log log n) because each prime p marks multiples from p*p up to n, and space complexity: O(n) because is_prime and primes store up to n elements.
